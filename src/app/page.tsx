@@ -1,7 +1,9 @@
+import DailyRewards from "@/components/DailyRewards";
 import Featured from "@/components/Featured";
 import Header from "@/components/Header";
 import Intro from "@/components/Intro";
 import Portfolio from "@/components/Portfolio";
+import Possibilities from "@/components/Possibilities";
 import Rewards from "@/components/Rewards";
 import Image from "next/image";
 
@@ -13,6 +15,8 @@ export default function Home() {
     <Featured />
     <Portfolio />
     <Rewards />
+    <DailyRewards />
+    <Possibilities />
     </div>
   );
 }

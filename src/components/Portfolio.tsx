@@ -44,6 +44,11 @@ export default function Portfolio() {
         </div>
 
       </div>
+
+      <div className='bg-blue-500 rounded-full py-4 px-7 mt-9'>
+        <button type='button'>DOWNLOAD  APP</button>
+      </div>
+
     </div>
   )
 }

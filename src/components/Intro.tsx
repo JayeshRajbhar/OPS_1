@@ -12,7 +12,7 @@ export default function Intro() {
         </div>
       </div>
       <div className='relative rounded-md'>
-      <div className="absolute inset-0 rounded-full bg-blue-900 opacity-50 blur-3xl"></div>
+      <div className="absolute inset-0 rounded-full bg-blue-900 opacity-60 blur-[100px]"></div>
         <img src="laptop.png" alt="laptop" className='relative h-[500px] w-[1000px] z-10'/>
       </div>
     </div>

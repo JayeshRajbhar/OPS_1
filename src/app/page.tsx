@@ -1,8 +1,10 @@
 import DailyRewards from "@/components/DailyRewards";
+import Download from "@/components/Download";
 import Featured from "@/components/Featured";
 import GetStarted from "@/components/GetStarted";
 import Header from "@/components/Header";
 import Intro from "@/components/Intro";
+import LatestNews from "@/components/LatestNews";
 import Portfolio from "@/components/Portfolio";
 import Possibilities from "@/components/Possibilities";
 import Rewards from "@/components/Rewards";
@@ -21,6 +23,8 @@ export default function Home() {
     <Possibilities />
     <Movingcards />
     <GetStarted />
+    <LatestNews />
+    <Download />
     </div>
   );
 }
